@@ -1,10 +1,9 @@
 # Signedness-Agnostic Strided Interval Analysis 
 
-This project provides the implementation of a new interval analysis,
-called Signed Agnostic Strided interval analysis. It is implemented in C++ using the
-LLVM framework, and currently, it has only support for C programs
-which are translated to LLVM IR (Intermediate Representation) via
-Clang.
+This project provides the implementation of a new interval analysis, called Signed-Agnostic Strided interval analysis. 
+It is implemented in C++ using the LLVM framework, and currently, it has only support for C programs which are translated to LLVM IR (Intermediate Representation) via Clang.
+
+You can find the Signed-Agnostic Strided interval paper at https://seclab.cs.ucsb.edu/media/uploads/papers/bintrimmer.pdf.
 
 This implementation is based on Wrapped Intervals (https://github.com/regehr/wrapped-intervals).
 
