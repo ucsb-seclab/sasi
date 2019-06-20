@@ -1,0 +1,11 @@
+/// @mainpage Signedness-Agnostic Strided Interval Analysis
+///
+/// @section main_intro Introduction
+/// This is the Signedness-Agnostic Strided
+/// Interval analysis for LLVM.
+/// 
+/// @section Documentation
+///
+/// The documentation is composed of the Doxygen 
+/// documentation of the code. 
+

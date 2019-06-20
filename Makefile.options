@@ -1,0 +1,2 @@
+CXX.Flags += -Wnon-virtual-dtor 
+CXX.Flags += -m32

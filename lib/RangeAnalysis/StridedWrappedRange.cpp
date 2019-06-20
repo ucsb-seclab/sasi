@@ -2035,7 +2035,6 @@ StridedWrappedRange SignedWrappedMult(const StridedWrappedRange *Op1,
 }
 
 
-//machiry:
 bool StridedWrappedRange::minimal_common_integer_splitted(StridedWrappedRange *Op1, StridedWrappedRange *Op2, APInt *result) {
     unsigned long op1_s, op2_s;
     float x, y;
@@ -2137,7 +2136,6 @@ void StridedWrappedRange::WrappedMultiplication(StridedWrappedRange *LHS,
   if (Op1->IsZeroRange() || Op2->IsZeroRange()){
     LHS->setLB((uint64_t) 0);
     LHS->setUB((uint64_t) 0);
-    //machiry: Setting stride 0
     LHS->setStride(0);
     return;
   }
@@ -2158,7 +2156,6 @@ void StridedWrappedRange::WrappedMultiplication(StridedWrappedRange *LHS,
       LHS->setLB(Op1->getLB() * Op2->getLB());
       LHS->setUB(Op1->getUB() * Op2->getUB());
   }
-  //machiry
   std::vector<StridedWrappedRangePtr> allranges;
   typedef std::vector<StridedWrappedRangePtr>::iterator It;
   for (It I1 = s1.begin(), E1 =s1.end(); I1 != E1; ++I1){
