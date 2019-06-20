@@ -36,7 +36,6 @@ This implementation is based on Wrapped Intervals (https://github.com/regehr/wra
 - Be sure ```LLVM_ROOT``` is set properly
 - ```git clone git@github.com:ucsb-seclab/sasi.git```
 - ``` cd sasi```
-- ```. setenv`
 - ```./configure --with-llvmsrc=$LLVM_ROOT/llvm --with-llvmobj=$LLVM_ROOT/llvm/build```
 - ```./make```
 
