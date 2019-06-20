@@ -1,2 +1,0 @@
-all:
-	doxygen doxygen.cfg

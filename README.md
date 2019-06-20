@@ -34,14 +34,12 @@ This implementation is based on Wrapped Intervals (https://github.com/regehr/wra
    This builds both LLVM and Clang for debug mode.
 
 ## Checkout and installation of the Signed-Agnostic Strided Interval Analysis 
-
+- Be sure ```LLVM_ROOT``` is set properly
 - ```git clone git@github.com:ucsb-seclab/sasi.git```
 - ``` cd sasi```
 - ```. setenv`
 - ```./configure --with-llvmsrc=$LLVM_ROOT/llvm --with-llvmobj=$LLVM_ROOT/llvm/build```
 - ```./make```
-- ```cd ./docs && make```  (optional)
-- Change ```$CLANG_PATH``` and ```$OPT_PATH``` in the ```tools/run.sh``` script
 
 
 # Usage 
