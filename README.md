@@ -1,4 +1,4 @@
-# Wrapped Interval Analysis 
+# Signedness-Agnostic Strided Interval Analysis 
 
 This project provides the implementation of a new interval analysis,
 called Signed Agnostic Strided interval analysis. It is implemented in C++ using the
