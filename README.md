@@ -76,7 +76,8 @@ Pass is the pass that we want to run:
 
 # Running Benchmarks
 1. Extract all benchmarks in the folder benchmark_evaluation/spec_benchmarks/
-2. Running:
+2. For each one fo them run ```./configure && make```
+2. Run:
 ```
 cd benchmark_evaluation
 python benchmark_config.py
