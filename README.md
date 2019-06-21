@@ -5,7 +5,7 @@ It is implemented in C++ using the LLVM framework, and currently, it has only su
 
 You can find the Signed-Agnostic Strided interval paper at https://seclab.cs.ucsb.edu/media/uploads/papers/bintrimmer.pdf.
 
-This implementation is based on Wrapped Intervals (https://github.com/regehr/wrapped-intervals).
+This implementation is based on Wrapped Intervals (https://github.com/sav-tools/wrapped-intervals).
 
 # Installation 
 
